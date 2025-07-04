@@ -5,7 +5,7 @@ This is a simple port scanner using socket module to scan for open ports inside 
 
 
 
-**Note: Please Don't scan ports for illegal purposes.**
+**Note: Use it at your own risk.**
 
 
 **Description:**
@@ -16,11 +16,11 @@ You can use it to see which port is open or closed for a better understanding of
 
 
 
-Usage: python3 portscanner.py "ip address" "max port"
+Usage: python3 portscanner.py "ip address" "portrange"
 
 example:
 
-```python3 portscanner.py 192.168.1.1 1000```
+```python3 portscanner.py 192.168.1.1 1-1000```
 It scans the first 1000 open ports
 
-GoodLuck :)
+
