@@ -46,7 +46,7 @@ def main():
     parser.add_argument("ip_range", help="IP range in CIDR format (e.g., 192.168.1.0/24)")
     parser.add_argument("ports", help="Port range (e.g., 1-1024 or a single port like 80)")
     parser.add_argument("-t", "--timeout", type=float, default=1.0, help="Timeout for each connection attempt (in seconds)")
-    parser.add_argument("-p", "--threads", type=int, default=10, help="Number of threads to use for scanning")
+    parser.add_argument("-T", "--threads", type=int, default=10, help="Number of threads to use for scanning")
 
     args = parser.parse_args()
 
