@@ -30,7 +30,9 @@ This simple yet effective tool performs a **TCP handshake** to check whether a p
 
 ### Prerequisites:
 Python3.x
+
 ###Syntax:
+
 python3 portscanner.py <target-ip> <port-range>
 python3 portscanner.py 192.168.1.0/24 1-1000
 
