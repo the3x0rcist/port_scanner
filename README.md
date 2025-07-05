@@ -1,26 +1,36 @@
-# port_scanner
+# Port Scanner
 
+A **lightweight, powerful TCP Port Scanner** built with Python's `socket` module. Perfect for network diagnostics, security assessments, and understanding your local or remote host’s exposed services.
 
-This is a simple port scanner using socket module to scan for open ports inside a network.
+> ⚠️ **Disclaimer:** Use responsibly. Unauthorized scanning of networks is illegal in many jurisdictions.
 
+---
 
+## Overview
 
-**Note: Use it at your own risk.**
+This simple yet effective tool performs a **TCP handshake** to check whether a port on a target IP address is **open** or **closed**. It’s an excellent utility for:
 
+-  Security Auditing  
+- 🛠 Network Troubleshooting  
+-  Learning about TCP/IP and Port Communication  
 
-**Description:**
+---
 
-The idea behind it is to use socket module in python using a tcp handshake to scan each port to see if it's open or not.
-You can use it to see which port is open or closed for a better understanding of security and network troubleshooting.
+##  Features
 
+-  Scans any IPv4 address  
+-  Customizable port ranges (e.g., `1-1000`, `20-80`, etc.)  
+-  Clear and informative output  
+-  Lightweight and dependency-free  
+-  Easily customizable Python script  
 
+---
 
+## Usage
 
-Usage: python3 portscanner.py "ip address" "portrange"
+### Prerequisites:
+- Python 3.x
 
-example:
-
-```python3 portscanner.py 192.168.1.1 1-1000```
-It scans the first 1000 open ports
-
-
+### Run the scanner:
+```bash
+python3 portscanner.py <target-ip> <port-range>
